@@ -8,20 +8,6 @@ syntax on
 set nocompatible
 filetype plugin on
 
-" vimwiki plugin
-let g:vimwiki_use_mouse = 1
-let g:vimwiki_camel_case = 0
-let g:vimwiki_valid_html_tags='b,i,s,u,sub,sup,kbd,br,hr,div,del,code,red,center,left,right,h2,h4,h5,h6,pre,script,style'
-let g:vimwiki_list = [{
-\ 'path': '/mnt/store/workspace/dev/githome/cswei99-s-blog/wikifiles',
-\ 'path_html': '/mnt/store/workspace/dev/githome/cswei99-s-blog/html',
-\ 'template_path': '/mnt/store/workspace/dev/githome/cswei99-s-blog/html/templates/',
-\ 'template_default': 'default',
-\ 'template_ext': '.html',
-\ 'auto_export': 1,
-\ 'nested_syntaxes': {'Clang': 'c', 'Ruby': 'ruby', 'JS': 'javascript', 'Coffee': 'coffee', 'SQL': 'sql', 'Bash': 'sh', 'Vim': 'vim', 'CSS': 'css', 'HTML': 'html', 'XML': 'xml'}}]
-
-
 " syntax trigger
 " command: ;s
 function! ToggleSyntax()
