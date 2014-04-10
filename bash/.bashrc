@@ -111,9 +111,6 @@ if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
     . /etc/bash_completion
 fi
 
-export MONGO_HOME=/usr/local/mongo
-export PATH=$PATH:$MONGO_HOME/bin
-
 # Set  colors for man pages
 #man(){
 #env\
@@ -126,11 +123,3 @@ export PATH=$PATH:$MONGO_HOME/bin
 #LESS_TERMCAP_us=$(printf"\e[1;32m") \
 #man "$@"
 #}
-
-alias clojure='cd /usr/local/clojure-1.5.1; java -cp /usr/local/clojure-1.5.1/clojure-1.5.1.jar clojure.main'
-alias rscp='scp -P 65422'
-alias goagent='/home/lancerexw/download/software/goagent-3.1.0/local/goagent-gtk.py 2>&1 1>/dev/null &'
-
-export PATH="/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/local/jdk1.7.0_21/bin:/usr/local/apache-maven-3.1.0/bin:/usr/local/hadoop-1.2.1/bin:/usr/local/mongo/bin"
-
-
